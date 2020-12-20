@@ -5,14 +5,16 @@ import {useState, useEffect} from 'react';
 
 function App() {
   let d = new Date()
+  const h = d.getHours()
+
   const n = d.getSeconds()
   const m = d.getMinutes()
 
   const [time, setTime] = useState(n);
   const [minute, setMinute] = useState(m);
 
-  const [chosenSec, setChosenSec] = useState('')
-  const [hr, setHr] = useState('');  
+  const [chosenSec, setChosenSec] = useState(n)
+  const [hr, setHr] = useState(h);  
 
   const classes = ['minute one', 'minute two', 'minute three', 'minute four', 
     'minute five', 'minute six', 'minute seven', 'minute eight',
@@ -59,9 +61,9 @@ function App() {
     const interval = setInterval(() => 
     {
       let x = new Date()
-      let w = d.getHours()
-      let y = d.getSeconds()
-      let z = d.getMinutes()
+      let w = x.getHours()
+      let y = x.getSeconds()
+      let z = x.getMinutes()
       setTime(y)
       setChosenSec(classes[y])
       setMinute(mincs[z])
