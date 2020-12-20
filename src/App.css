@@ -1,38 +1,383 @@
-.App {
-  text-align: center;
+.circle-container {
+  display: block;
+  position: absolute;
+  top: 15.5%;
+  left: 14.5%;
+  background-color:orange;
+  width: 11.5em;
+  height: 11.5em;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #bfbfbf;
+  margin: 0em;
+}
+.radius {
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  background: red;
+  transform-origin: left center;
+}
+.two2 {
+  background: green;
+  transform: rotate(-180deg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.minute {
+
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  background: blue;
+  transform-origin: left center;
+
+  background-color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.second {
+
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  background: red;
+  transform-origin: left center;
+
+  background-color: green;
+}
+.hour {
+
+  position: absolute;
+  width: 50%;
+  height: 3px;
+  left: 50%;
+  top: 50%;
+  background: red;
+  transform-origin: left center;
+
+  background-color: purple;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.h0{
+  transform: rotate(270deg);
+}
+.h1{
+  transform: rotate(300deg);
+}
+.h2{
+  transform: rotate(330deg);
+}
+.h3{
+  transform: rotate(360deg);
+}
+.h4{
+  transform: rotate(390deg);
+}
+.h5{
+  transform: rotate(420deg);
+}
+.h6{
+  transform: rotate(450deg);
+}
+.h7{
+  transform: rotate(480deg);
+}
+.h8{
+  transform: rotate(510deg);
+}
+.h9{
+  transform: rotate(540deg);
+}
+.h10{
+  transform: rotate(570deg);
+}
+.h11{
+  transform: rotate(600deg);
 }
 
-.App-link {
-  color: #61dafb;
+.zero {
+  transform: rotate(270deg);
+
+}
+.one {
+  transform: rotate(276deg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.two {
+  transform: rotate(282deg);
+}
+
+.three {
+  transform: rotate(288deg);
+
+}
+
+
+.four {
+  transform: rotate(294deg);
+
+}
+
+.five {
+  transform: rotate(300deg);
+
+}
+
+
+.six {
+  transform: rotate(306deg);
+
+}
+
+
+.seven {
+  transform: rotate(312deg);
+
+}
+
+
+.eight {
+  transform: rotate(318deg);
+
+}
+
+
+.nine {
+  transform: rotate(324deg);
+
+}
+
+
+.ten {
+  transform: rotate(330deg);
+
+}
+
+
+.eleven {
+  transform: rotate(336deg);
+
+}
+
+
+.twelve {
+  transform: rotate(342deg);
+
+}
+
+
+.thirteen {
+  transform: rotate(348deg);
+
+}
+
+
+.fourteen {
+  transform: rotate(354deg);
+
+}
+
+
+.fifteen {
+  transform: rotate(360deg);
+
+}
+
+
+.sixteen {
+  transform: rotate(366deg);
+
+}
+
+
+.seventeen {
+  transform: rotate(372deg);
+
+}
+
+.eighteen {
+  transform: rotate(378deg);
+
+}
+
+
+.nineteen {
+  transform: rotate(384deg);
+
+}
+
+
+.twenty {
+  transform: rotate(390deg);
+
+}
+
+
+.twenty1 {
+  transform: rotate(396deg);
+
+}
+
+.twenty2 {
+  transform: rotate(402deg);
+
+}
+.twenty3 {
+  transform: rotate(408deg);
+
+}
+.twenty4 {
+  transform: rotate(414deg);
+
+}
+.twenty5 {
+  transform: rotate(420deg);
+
+}
+.twenty6 {
+  transform: rotate(426deg);
+
+}
+.twenty7 {
+  transform: rotate(432deg);
+
+}
+.twenty8 {
+  transform: rotate(438deg);
+
+}
+.twenty9 {
+  transform: rotate(444deg);
+
+}
+.thirty {
+  transform: rotate(450deg);
+
+}
+.thirty1 {
+  transform: rotate(456deg);
+}
+.thirty2 {
+  transform: rotate(462deg);
+
+}
+.thirty3 {
+  transform: rotate(468deg);
+
+}
+.thirty4 {
+  transform: rotate(474deg);
+
+}
+.thirty5 {
+  transform: rotate(480deg);
+
+}
+.thirty6 {
+  transform: rotate(486deg);
+
+}
+.thirty7 {
+  transform: rotate(492deg);
+}
+.thirty8 {
+  transform: rotate(498deg);
+
+}
+.thirty9 {
+  transform: rotate(504deg);
+
+}
+.forty {
+  transform: rotate(510deg);
+
+}
+.forty1 {
+  transform: rotate(516deg);
+
+}
+.forty2 {
+  transform: rotate(522deg);
+
+}
+.forty3 {
+  transform: rotate(528deg);
+
+}
+.forty4 {
+  transform: rotate(534deg);
+
+}
+.forty5 {
+  transform: rotate(540deg);
+
+}
+.forty6 {
+  transform: rotate(546deg);
+
+}
+.forty7 {
+  transform: rotate(552deg);
+
+}
+.forty8 {
+  transform: rotate(558deg);
+}
+.forty9 {
+  transform: rotate(564deg);
+
+}
+.fifty {
+  transform: rotate(570deg);
+
+}
+.fifty1 {
+  transform: rotate(576deg);
+
+}
+.fifty2 {
+  transform: rotate(582deg);
+
+}
+.fifty3 {
+  transform: rotate(588deg);
+
+}
+.fifty4 {
+  transform: rotate(594deg);
+
+}
+.fifty5 {
+  transform: rotate(600deg);
+
+}
+.fifty6 {
+  transform: rotate(606deg);
+
+}
+.fifty7 {
+  transform: rotate(612deg);
+
+}
+.fifty8 {
+  transform: rotate(618deg);
+
+}
+.fifty9 {
+  transform: rotate(624deg);
+
+}
+.sixty {
+  transform: rotate(630deg);
+
 }
