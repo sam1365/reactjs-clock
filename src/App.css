@@ -1,9 +1,9 @@
 .circle-container {
   display: block;
   position: absolute;
-  top: 15.5%;
-  left: 14.5%;
-  background-color:orange;
+  top: 30%;
+  left: 40%;
+  background-color:rgb(189, 185, 185);
   width: 11.5em;
   height: 11.5em;
   border-radius: 50%;
@@ -18,54 +18,53 @@
   height: 3px;
   left: 50%;
   top: 50%;
-  background: red;
+
   transform-origin: left center;
-}
-.two2 {
-  background: green;
-  transform: rotate(-180deg);
+  z-index: 1000;
 }
 
-
-.minute {
-
-  position: absolute;
-  width: 50%;
-  height: 3px;
-  left: 50%;
-  top: 50%;
-  background: blue;
-  transform-origin: left center;
-
-  background-color: blue;
+.minut {
+  background-color: yellow;
 }
 
-
-
-.second {
-
-  position: absolute;
-  width: 50%;
-  height: 3px;
-  left: 50%;
-  top: 50%;
-  background: red;
-  transform-origin: left center;
-
-  background-color: green;
+.se {
+  background-color: pink;
 }
-.hour {
-
-  position: absolute;
-  width: 50%;
-  height: 3px;
-  left: 50%;
-  top: 50%;
-  background: red;
-  transform-origin: left center;
-
+.hor {
   background-color: purple;
 }
+
+.circle {
+
+  position: absolute;
+  width: 12%;
+  height: 12%;
+  border-radius: 50%;
+  color: black;
+  /* transform-origin: left center; */
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+
+
+
+}
+
+.c12 {
+  left: 44%;
+  top: 0%;
+
+}
+
+.c1 {
+  left: 64%;
+  top: 5%;
+
+}
+
+
 
 .h0{
   transform: rotate(270deg);
