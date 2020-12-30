@@ -21,10 +21,9 @@ function App() {
   const [minu, setMinu]= useState(m)
   const [hou, setHou] = useState(h)
 
-  const wow = {}
   const minclasses = ['radius minut one', 'radius minut two', 'radius minut three', 'radius minut four', 
     'radius minut five', 'radius minut six', 'radius minut seven', 'radius minut eight',
-   'radius minut nine', 'radius minut ten', 'radius minut eleven', 'radius minut twelve', 'radius minut thirteen', 
+    'radius minut nine', 'radius minut ten', 'radius minut eleven', 'radius minut twelve', 'radius minut thirteen', 
     'radius minut fourteen', 'radius minut fifteen', 'radius minut sixteen', 'radius minut seventeen', 
     'radius minut eighteen', 'radius minut nineteen', 'radius minut twenty', 'radius minut twenty1', 
     'radius minut twenty2', 'radius minut twenty3',
@@ -98,16 +97,14 @@ function App() {
       setTime(y)
       setChosenSec(secclasses[y])
       setMinute(minclasses[z])
-      // setHr(hrcs[w])
-
 
       hourdeg = 270 +  (w * 30);
-      // hourdeg = 310;
+      
       mindeg = Math.floor(z  / 12) * 6;
       
       resultdeg = hourdeg + mindeg;
       
-      result =  (resultdeg- 270 ) / 6
+      result =  Math.floor((resultdeg- 270 ) / 6)
 
       setHr(hrclasses[result])
 
@@ -135,9 +132,18 @@ function App() {
 
        <div className={hr}> </div>
 
-       <div className="circle c12"> 12 </div>
-
        <div className="circle c1"> 1 </div>
+       <div className="circle c2"> 2 </div>
+       <div className="circle c3"> 3 </div>
+       <div className="circle c4"> 4 </div>
+       <div className="circle c5"> 5 </div>
+       <div className="circle c6"> 6 </div>
+       <div className="circle c7"> 7 </div>
+       <div className="circle c8"> 8 </div>
+       <div className="circle c9"> 9 </div>
+       <div className="circle c10"> 10 </div>
+       <div className="circle c11"> 11 </div>
+       <div className="circle c12"> 12 </div>
 
 
       <br></br>

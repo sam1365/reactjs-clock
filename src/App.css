@@ -20,11 +20,11 @@
   top: 50%;
 
   transform-origin: left center;
-  z-index: 1000;
+  z-index: 100;
 }
 
 .minut {
-  background-color: yellow;
+  background-color: blue;
 }
 
 .se {
@@ -47,11 +47,13 @@
   justify-content: center;
   align-items: center;
   background-color: yellow;
-
-
-
+  z-index: 200;
 }
 
+.c00 {
+  left: 0;
+  top: 0;
+}
 .c12 {
   left: 44%;
   top: 0%;
@@ -59,6 +61,63 @@
 }
 
 .c1 {
+  left: 67%;
+  top: 6%;
+
+}
+
+.c2 {
+  left: 83%;
+  top: 22%;
+
+}
+
+.c3 {
+  left: 89%;
+  top: 45%;
+
+}
+.c4 {
+  left: 83%;
+  top: 66%;
+
+}
+.c5 {
+  left: 67%;
+  top: 82%;
+
+}
+.c6 {
+  left: 45%;
+  top: 88%;
+
+}
+.c7 {
+  left: 22%;
+  top: 82%;
+
+}
+.c8 {
+  left: 6%;
+  top: 66%;
+
+}
+.c9 {
+  left: 0%;
+  top: 46%;
+
+}
+.c10 {
+  left: 6%;
+  top: 22%;
+
+}
+.c11 {
+  left: 22%;
+  top: 6%;
+
+}
+.c {
   left: 64%;
   top: 5%;
 
